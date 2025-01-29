@@ -1,0 +1,36 @@
+[general]
+live_config_reload = true
+
+[env]
+TERM = "xterm-256color"
+
+[window]
+opacity = 0.8
+blur = true
+startup_mode = "Windowed"
+dynamic_title = true
+decorations_theme_variant = "Dark"
+
+[scrolling]
+history = 100000
+
+[selection]
+save_to_clipboard = false
+
+[cursor]
+style = {shape = "Beam", blinking = "On" }
+blink_interval = 750
+blink_timeout = 5
+unfocused_hollow = true
+
+[mouse]
+hide_when_typing = true
+
+[[hints.enabled]]
+command = "xdg-open"
+hyperlinks = true
+post_processing = true
+persist = true
+mouse.enabled = true
+binding = { key = "O", mods = "Control|Shift" }
+regex = "(ipfs:|ipns:|magnet:|mailto:|gemini://|gopher://|https://|http://|news:|file:|git://|ssh:|ftp://)[^\u0000-\u001F\u007F-\u009F<>\"\\s{-}\\^⟨⟩`]+"
