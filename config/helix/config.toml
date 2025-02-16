@@ -1,0 +1,25 @@
+theme = "dracula_transparent"
+
+[editor]
+line-number = "absolute"
+shell = ["bash"]
+rulers = [80, 120]
+bufferline = "always"
+
+[editor.indent-guides]
+render = true
+character = "┆"
+
+[editor.statusline]
+left = ["mode", "spinner", "separator", "file-name", "read-only-indicator", "file-modification-indicator"]
+center = ["version-control","file-base-name", "file-modification-indicator"]
+right = ["diagnostics", "position", "separator", "total-line-numbers"]
+separator = "|"
+mode.normal = "NOR"
+mode.insert = "INS"
+mode.select = "SEL"
+
+[keys.normal]
+C-s = ":write"
+C-q = ":buffer-close"
+
