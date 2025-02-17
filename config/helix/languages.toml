@@ -1,0 +1,4 @@
+
+[language-server.clangd]
+command = "clangd"
+args = ["--enable-config", "--compile-commands-dir=cmake-build-debug", "--background-index"]
