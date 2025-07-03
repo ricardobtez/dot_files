@@ -24,7 +24,7 @@
       "ctrl-s": "workspace::Save",
       "ctrl-q": "pane::CloseActiveItem",
       "ctrl-j": "workspace::ToggleBottomDock",
-      "U": "vim::Redo",
+      "shift-u": "vim::Redo",
       "space /": "pane::DeploySearch",
       "space s": "project_symbols::Toggle",
       "] g": "editor::GoToHunk",
